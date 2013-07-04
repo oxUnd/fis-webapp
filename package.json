@@ -1,0 +1,33 @@
+{
+  "name": "fis-webapp",
+  "version": "0.0.5",
+  "description": "Front End Integrated Solution for Webapp",
+  "main": "fis-webapp.js",
+  "bin": {
+    "fis-webapp": "bin/fis-webapp",
+    "fisw": "bin/fis-webapp"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiangshouding/fis-webapp.git"
+  },
+  "dependencies": {
+    "fis": "1.0.0",
+    "fis-preprocessor-extlang": "0.0.3",
+    "fis-postprocessor-require-async": "0.0.3",
+    "fis-optimizer-smarty-xss": "0.0.3",
+    "fis-optimizer-html-compress": "0.0.2",
+    "fis-parser-bdtmpl": "0.0.1",
+    "fis-parser-less": "0.0.5",
+    "fis-postpackager-ext-map": "0.0.1"
+  },
+  "keywords": [
+    "fis",
+    "fis-webapp"
+  ],
+  "author": "fis",
+  "license": "MIT"
+}
