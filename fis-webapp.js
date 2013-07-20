@@ -55,16 +55,16 @@ fis.config.merge({
                 reg : /^\/plugin\//i
             },
             {
-                reg: /^\/.*\.(html|tpl|xhtml|php)$/i,
-                release: '$&'
-            },
-            {
                 reg : '${namespace}-map.json',
                 release : '/config/${namespace}-map.json'
             },
             {
                 reg: "server.conf",
                 release: '/$&'
+            },
+            {
+                reg: "build.sh",
+                release: false
             },
             {
                 reg: /\/.+/i,
